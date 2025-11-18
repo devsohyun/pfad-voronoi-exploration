@@ -8,11 +8,13 @@ canvas_height = 900
 
 PATTERN_TYPE = "perlin"  # Options: "random", "perlin", "none"
 isPreviewEnabled = False  # perlin noise preview
+
+# Twick the values here to see different results,
+# but keep in mind that if you go too far from default values, it might not look nice enough.
+seed = 12  # seed for perlin noise
 num_points = 900  # defalt: 800
 noise_scale = 0.005  # # defalt: 0.003 = zoon level (smaller: broader patterns, larger: tighter patterns)
 diagram_colour = 255  # option: 0, 255
-
-seed = 12  # seed for perlin noise
 octaves = 4  # more octaves = more detail in noise (only integers are allowed)
 persistence = 0.6  # defalt: 0.6
 lacunarity = 4.0  # defalt: 2.0
@@ -123,7 +125,6 @@ def draw():
     tri = Delaunay(points)
 
     ### ---- Comment/Uncomment each elements below to find your style ---- ###
-
     ## Draw Delaunay Triangulation
     stroke("#A85219")
     stroke_weight(1)
