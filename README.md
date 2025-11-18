@@ -1,6 +1,7 @@
 # PFAD Voronoi Exploration
 Goldsmiths MA Computational Arts Term 1 Module. <br />
-Programming for Artists and Designers mid-term asssessment python project
+Programming for Artists and Designers mid-term asssessment python project. <br />
+This module was run by [Daniel Berio](https://www.enist.org/)
 
 ## Installation
 ### Versions
